@@ -1,0 +1,16 @@
+[package]
+name = "slum_gen_v3"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "sl_gen"
+path = "src/main.rs"
+
+[dependencies]
+bevy = "0.16.1"
+bevy_egui = "0.36.0"
+bevy_rts_camera = "0.10.0"
+rand = "0.9.2"
+rand_distr = "0.5.1"
+spade = "2.15.0"
